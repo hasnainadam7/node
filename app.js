@@ -50,7 +50,7 @@ const path = require('path')
 
 //intial routes
 const indexRoutes = require('./routers/index')
-const productRoutes = require('./routers/product')
+const productRoutes = require('./routers/products')
 
 
 // Set the view engine to EJS

@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 
 app.use(bodyParser.urlencoded({extended:false}));
 
-
+route.get('/', productController.fetchAll)
 route.get('/form', productController.addProduct)
 route.post('/form', productController.submittedProduct)
  
